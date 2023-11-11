@@ -1,0 +1,8 @@
+{
+  "sqlite": {
+    "database": "fixtures/sqlite/x-admin-examples.sqlite"
+  },
+  "admin": {
+    "settings": "config/sqlite/settings.json"
+  }
+}
