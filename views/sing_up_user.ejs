@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+ <head>
+    <meta charset="utf-8">
+    <title>Registrarse</title>
+    <link rel='stylesheet' href='/stylesheets/singup.css'/>
+    <link rel="shortcut icon" href="https://ohmagazinerd.com/wp-content/uploads/2023/04/Cafe-2.jpg" type="image/x-icon">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+ </head>
+ <body>
+    <section>
+      <div class="imgBx">
+        <img src="https://ohmagazinerd.com/wp-content/uploads/2023/04/Cafe-2.jpg" alt="">
+      </div>
+      <div class="contentBx">
+        <div class="formBx">
+          <h2> Registrarse </h2>
+          <form class="" action="/signup" method="post">
+            <div class="inputBx">
+              <span> Nombre </span>
+              <input type="text" name="nombre" value="" required>
+            </div>
+            <div class="inputBx">
+              <span>Correo Electrónico </span>
+              <input type="text" name="correo" value="" required>
+            </div>
+            <div class="inputBx">
+              <span>Contraseña </span>
+              <input type="password" name="contraseña" value="" required>
+            </div>
+            <div class="inputBx">
+              <div class="g-recaptcha" data-sitekey="6LeIxAcTAAAAAJcZVRqyHh71UMIEGNQ_MXjiZKhI"></div>
+            </div>
+            <div class="inputBx">              
+              <input type="submit" name="" value="Registrarse">
+            </div>
+            <div class="inputBx">
+              <p> ¿Ya estás registrado? <a href="/signin"> Iniciar sesión </a></p>
+            </div>
+          </form>        
+        </div>
+      </div>
+    </section>
+    <script src="https://www.google.com/recaptcha/enterprise.js?render=6LcNwC8pAAAAAOYO41HMMBy3MeS8pZxQxJKDvLhT"></script>
+ </body>
+</html>
